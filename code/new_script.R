@@ -49,6 +49,8 @@ ggplot(data = iris, aes(x = Sepal.Length, y = Sepal.Width)) +
   geom_point(size = 0.5) +
   facet_grid(Species ~ .)
 
+#change
+
 ggplot(data = iris, aes(x = Sepal.Length, y = Sepal.Width)) +
   geom_point(size = 0.5) +
   facet_wrap(~ Species)
