@@ -49,7 +49,6 @@ ggplot(data = iris, aes(x = Sepal.Length, y = Sepal.Width)) +
   geom_point(size = 0.5) +
   facet_grid(Species ~ .)
 
-#change
 
 ggplot(data = iris, aes(x = Sepal.Length, y = Sepal.Width)) +
   geom_point(size = 0.5) +
@@ -64,5 +63,5 @@ ggplot(df, aes(Species, value, fill = variable)) +
   geom_bar(stat = "identity", position = "dodge") +
   scale_fill_brewer(palette = "Set1")
 
-ggplot(birthwt, aes(factor(race), bwt)) + geom_boxplot(width = 0.2) +
+#ggplot(birthwt, aes(factor(race), bwt)) + geom_boxplot(width = 0.2) +
   
